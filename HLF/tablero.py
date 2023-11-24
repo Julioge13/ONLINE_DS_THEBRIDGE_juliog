@@ -6,10 +6,16 @@ class Tablero:
         self.jugador_id = jugador_id
         self.dimensiones = dimensiones
         self.barcos = {
-            "Barco1": 1,
-            "Barco2": 2,
+            "Barco1": 4,
+            "Barco2": 3,
             "Barco3": 3,
-            "Barco4": 4
+            "Barco4": 2,
+            "Barco5": 2,
+            "Barco6": 2,
+            "Barco7": 1,
+            "Barco8": 1,
+            "Barco9": 1,
+            "Barco10": 1
         }
         self.tablero_oculto = np.zeros(self.dimensiones)
         self.tablero_visible = np.zeros(self.dimensiones)
@@ -75,7 +81,7 @@ class Tablero:
         for fila in range(self.dimensiones[0]):
             for columna in range(self.dimensiones[1]):
                 if self.tablero_visible[fila, columna] == 0:
-                    print(" ~ ", end="")
+                    print("  ", end="")
                 elif self.tablero_visible[fila, columna] == 1:
                     if self.tablero_oculto[fila, columna] == 1:
                         print(" X ", end="")
