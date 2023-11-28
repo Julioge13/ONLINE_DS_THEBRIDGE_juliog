@@ -1,26 +1,85 @@
-##### ESTRUCTURA DE UN SCRIPT
-# IMPORTS
-# VARIABLES Y CONSTANTES GLOBALES
-# DEFINICION DE FUNCIONES
-# DEFINICION DE CLASES
-# CODIGO PRINCIPAL
+def imprimir_titulo():
+    titulo = """
+    
+                                                                                                                                                                                     
+                                                                                                                                                                                 
+                    HHHHHHHHH     HHHHHHHHHUUUUUUUU     UUUUUUUUNNNNNNNN        NNNNNNNNDDDDDDDDDDDDD      IIIIIIIIIIRRRRRRRRRRRRRRRRR                                           
+                    H:::::::H     H:::::::HU::::::U     U::::::UN:::::::N       N::::::ND::::::::::::DDD   I::::::::IR::::::::::::::::R                                          
+                    H:::::::H     H:::::::HU::::::U     U::::::UN::::::::N      N::::::ND:::::::::::::::DD I::::::::IR::::::RRRRRR:::::R                                         
+                    HH::::::H     H::::::HHUU:::::U     U:::::UUN:::::::::N     N::::::NDDD:::::DDDDD:::::DII::::::IIRR:::::R     R:::::R                                        
+                      H:::::H     H:::::H   U:::::U     U:::::U N::::::::::N    N::::::N  D:::::D    D:::::D I::::I    R::::R     R:::::R                                        
+                      H:::::H     H:::::H   U:::::D     D:::::U N:::::::::::N   N::::::N  D:::::D     D:::::DI::::I    R::::R     R:::::R                                        
+                      H::::::HHHHH::::::H   U:::::D     D:::::U N:::::::N::::N  N::::::N  D:::::D     D:::::DI::::I    R::::RRRRRR:::::R                                         
+                      H:::::::::::::::::H   U:::::D     D:::::U N::::::N N::::N N::::::N  D:::::D     D:::::DI::::I    R:::::::::::::RR                                          
+                      H:::::::::::::::::H   U:::::D     D:::::U N::::::N  N::::N:::::::N  D:::::D     D:::::DI::::I    R::::RRRRRR:::::R                                         
+                      H::::::HHHHH::::::H   U:::::D     D:::::U N::::::N   N:::::::::::N  D:::::D     D:::::DI::::I    R::::R     R:::::R                                        
+                      H:::::H     H:::::H   U:::::D     D:::::U N::::::N    N::::::::::N  D:::::D     D:::::DI::::I    R::::R     R:::::R                                        
+                      H:::::H     H:::::H   U::::::U   U::::::U N::::::N     N:::::::::N  D:::::D    D:::::D I::::I    R::::R     R:::::R                                        
+                    HH::::::H     H::::::HH U:::::::UUU:::::::U N::::::N      N::::::::NDDD:::::DDDDD:::::DII::::::IIRR:::::R     R:::::R                                        
+                    H:::::::H     H:::::::H  UU:::::::::::::UU  N::::::N       N:::::::ND:::::::::::::::DD I::::::::IR::::::R     R:::::R                                        
+                    H:::::::H     H:::::::H    UU:::::::::UU    N::::::N        N::::::ND::::::::::::DDD   I::::::::IR::::::R     R:::::R                                        
+                    HHHHHHHHH     HHHHHHHHH      UUUUUUUUU      NNNNNNNN         NNNNNNNDDDDDDDDDDDDD      IIIIIIIIIIRRRRRRRR     RRRRRRR                                        
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+                                                                                                                                                                                 
+LLLLLLLLLLL                            AAA                    FFFFFFFFFFFFFFFFFFFFFFLLLLLLLLLLL                  OOOOOOOOO     TTTTTTTTTTTTTTTTTTTTTTT         AAA               
+L:::::::::L                           A:::A                   F::::::::::::::::::::FL:::::::::L                OO:::::::::OO   T:::::::::::::::::::::T        A:::A              
+L:::::::::L                          A:::::A                  F::::::::::::::::::::FL:::::::::L              OO:::::::::::::OO T:::::::::::::::::::::T       A:::::A             
+LL:::::::LL                         A:::::::A                 FF::::::FFFFFFFFF::::FLL:::::::LL             O:::::::OOO:::::::OT:::::TT:::::::TT:::::T      A:::::::A            
+  L:::::L                          A:::::::::A                  F:::::F       FFFFFF  L:::::L               O::::::O   O::::::OTTTTTT  T:::::T  TTTTTT     A:::::::::A           
+  L:::::L                         A:::::A:::::A                 F:::::F               L:::::L               O:::::O     O:::::O        T:::::T            A:::::A:::::A          
+  L:::::L                        A:::::A A:::::A                F::::::FFFFFFFFFF     L:::::L               O:::::O     O:::::O        T:::::T           A:::::A A:::::A         
+  L:::::L                       A:::::A   A:::::A               F:::::::::::::::F     L:::::L               O:::::O     O:::::O        T:::::T          A:::::A   A:::::A        
+  L:::::L                      A:::::A     A:::::A              F:::::::::::::::F     L:::::L               O:::::O     O:::::O        T:::::T         A:::::A     A:::::A       
+  L:::::L                     A:::::AAAAAAAAA:::::A             F::::::FFFFFFFFFF     L:::::L               O:::::O     O:::::O        T:::::T        A:::::AAAAAAAAA:::::A      
+  L:::::L                    A:::::::::::::::::::::A            F:::::F               L:::::L               O:::::O     O:::::O        T:::::T       A:::::::::::::::::::::A     
+  L:::::L         LLLLLL    A:::::AAAAAAAAAAAAA:::::A           F:::::F               L:::::L         LLLLLLO::::::O   O::::::O        T:::::T      A:::::AAAAAAAAAAAAA:::::A    
+LL:::::::LLLLLLLLL:::::L   A:::::A             A:::::A        FF:::::::FF           LL:::::::LLLLLLLLL:::::LO:::::::OOO:::::::O      TT:::::::TT   A:::::A             A:::::A   
+L::::::::::::::::::::::L  A:::::A               A:::::A       F::::::::FF           L::::::::::::::::::::::L OO:::::::::::::OO       T:::::::::T  A:::::A               A:::::A  
+L::::::::::::::::::::::L A:::::A                 A:::::A      F::::::::FF           L::::::::::::::::::::::L   OO:::::::::OO         T:::::::::T A:::::A                 A:::::A 
+LLLLLLLLLLLLLLLLLLLLLLLLAAAAAAA                   AAAAAAA     FFFFFFFFFFF           LLLLLLLLLLLLLLLLLLLLLLLL     OOOOOOOOO           TTTTTTTTTTTAAAAAAA                   AAAAAAA
+                                                                                                                                                                                 
+                    .----------------.  .----------------.  .-----------------. .----------------.  .----------------.  .----------------.              
+               | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |             
+               | |  ____  ____  | || | _____  _____ | || | ____  _____  | || |  ________    | || |     _____    | || |  _______     | |             
+               | | |_   ||   _| | || ||_   _||_   _|| || ||_   \|_   _| | || | |_   ___ `.  | || |    |_   _|   | || | |_   __ \    | |             
+               | |   | |__| |   | || |  | |    | |  | || |  |   \ | |   | || |   | |   `. \ | || |      | |     | || |   | |__) |   | |             
+               | |   |  __  |   | || |  | '    ' |  | || |  | |\ \| |   | || |   | |    | | | || |      | |     | || |   |  __ /    | |             
+               | |  _| |  | |_  | || |   \ `--' /   | || | _| |_\   |_  | || |  _| |___.' / | || |     _| |_    | || |  _| |  \ \_  | |             
+               | | |____||____| | || |    `.__.'    | || ||_____|\____| | || | |________.'  | || |    |_____|   | || | |____| |___| | |             
+               | |              | || |              | || |              | || |              | || |              | || |              | |             
+               | '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |             
+                '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'              
+ .----------------.  .----------------.          .----------------.  .----------------.  .----------------.  .----------------.  .----------------. 
+| .--------------. || .--------------. |        | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
+| |   _____      | || |      __      | |        | |  _________   | || |   _____      | || |     ____     | || |  _________   | || |      __      | |
+| |  |_   _|     | || |     /  \     | |        | | |_   ___  |  | || |  |_   _|     | || |   .'    `.   | || | |  _   _  |  | || |     /  \     | |
+| |    | |       | || |    / /\ \    | |        | |   | |_  \_|  | || |    | |       | || |  /  .--.  \  | || | |_/ | | \_|  | || |    / /\ \    | |
+| |    | |   _   | || |   / ____ \   | |        | |   |  _|      | || |    | |   _   | || |  | |    | |  | || |     | |      | || |   / ____ \   | |
+| |   _| |__/ |  | || | _/ /    \ \_ | |        | |  _| |_       | || |   _| |__/ |  | || |  \  `--'  /  | || |    _| |_     | || | _/ /    \ \_ | |
+| |  |________|  | || ||____|  |____|| |        | | |_____|      | || |  |________|  | || |   `.____.'   | || |   |_____|    | || ||____|  |____|| |
+| |              | || |              | |        | |              | || |              | || |              | || |              | || |              | |
+| '--------------' || '--------------' |        | '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
+ '----------------'  '----------------'          '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
+                                     # #  ( )
+                                  ___#_#___|__
+                              _  |____________|  _
+                       _=====| | |            | | |==== _
+                 =====| |.---------------------------. | |====
+   <--------------------'   .  .  .  .  .  .  .  .   '--------------/
+     \                                                             /
+      \_______________________________________________WWS_________/
+  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+   wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  
+"""
+    print(titulo)
 
-from sys import path
-path.append(".\\")
-print(path) ## esto es si creo una carpeta con las librerias
-
-import numpy as np
-import funciones as fn # aqui pondria el nombre del directorio, por ejemplo liberia.funciones
-
-tam_tablero = input(f"¿Qué tamaño quieres? (ancho,alto) ({fn.TAM_DEFECTO,fn.TAM_DEFECTO})")
-
-if tam_tablero!= "":
-    lista_dimensiones = [int(elemento) for elemento in tam_tablero.split(",")]
-else:
-    lista_dimensiones = (fn.TAM_DEFECTO,fn.TAM_DEFECTO)
-
-tablero = fn.crea_tablero(lista_dimensiones)
-
-fn.coloca_barco(tablero, [(1,1),(1,2),(1,3)])
-
-print(tablero)
+# Llamar a la función para imprimir el título
+imprimir_titulo()
