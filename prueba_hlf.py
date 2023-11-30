@@ -1,51 +1,7 @@
 def imprimir_titulo():
     titulo = """
-    
-                                                                                                                                                                                     
-                                                                                                                                                                                 
-                    HHHHHHHHH     HHHHHHHHHUUUUUUUU     UUUUUUUUNNNNNNNN        NNNNNNNNDDDDDDDDDDDDD      IIIIIIIIIIRRRRRRRRRRRRRRRRR                                           
-                    H:::::::H     H:::::::HU::::::U     U::::::UN:::::::N       N::::::ND::::::::::::DDD   I::::::::IR::::::::::::::::R                                          
-                    H:::::::H     H:::::::HU::::::U     U::::::UN::::::::N      N::::::ND:::::::::::::::DD I::::::::IR::::::RRRRRR:::::R                                         
-                    HH::::::H     H::::::HHUU:::::U     U:::::UUN:::::::::N     N::::::NDDD:::::DDDDD:::::DII::::::IIRR:::::R     R:::::R                                        
-                      H:::::H     H:::::H   U:::::U     U:::::U N::::::::::N    N::::::N  D:::::D    D:::::D I::::I    R::::R     R:::::R                                        
-                      H:::::H     H:::::H   U:::::D     D:::::U N:::::::::::N   N::::::N  D:::::D     D:::::DI::::I    R::::R     R:::::R                                        
-                      H::::::HHHHH::::::H   U:::::D     D:::::U N:::::::N::::N  N::::::N  D:::::D     D:::::DI::::I    R::::RRRRRR:::::R                                         
-                      H:::::::::::::::::H   U:::::D     D:::::U N::::::N N::::N N::::::N  D:::::D     D:::::DI::::I    R:::::::::::::RR                                          
-                      H:::::::::::::::::H   U:::::D     D:::::U N::::::N  N::::N:::::::N  D:::::D     D:::::DI::::I    R::::RRRRRR:::::R                                         
-                      H::::::HHHHH::::::H   U:::::D     D:::::U N::::::N   N:::::::::::N  D:::::D     D:::::DI::::I    R::::R     R:::::R                                        
-                      H:::::H     H:::::H   U:::::D     D:::::U N::::::N    N::::::::::N  D:::::D     D:::::DI::::I    R::::R     R:::::R                                        
-                      H:::::H     H:::::H   U::::::U   U::::::U N::::::N     N:::::::::N  D:::::D    D:::::D I::::I    R::::R     R:::::R                                        
-                    HH::::::H     H::::::HH U:::::::UUU:::::::U N::::::N      N::::::::NDDD:::::DDDDD:::::DII::::::IIRR:::::R     R:::::R                                        
-                    H:::::::H     H:::::::H  UU:::::::::::::UU  N::::::N       N:::::::ND:::::::::::::::DD I::::::::IR::::::R     R:::::R                                        
-                    H:::::::H     H:::::::H    UU:::::::::UU    N::::::N        N::::::ND::::::::::::DDD   I::::::::IR::::::R     R:::::R                                        
-                    HHHHHHHHH     HHHHHHHHH      UUUUUUUUU      NNNNNNNN         NNNNNNNDDDDDDDDDDDDD      IIIIIIIIIIRRRRRRRR     RRRRRRR                                        
-                                                                                                                                                                                 
-                                                                                                                                                                                 
-                                                                                                                                                                                 
-                                                                                                                                                                                 
-                                                                                                                                                                                 
-                                                                                                                                                                                 
-                                                                                                                                                                                 
-                                                                                                                                                                                 
-                                                                                                                                                                                 
-LLLLLLLLLLL                            AAA                    FFFFFFFFFFFFFFFFFFFFFFLLLLLLLLLLL                  OOOOOOOOO     TTTTTTTTTTTTTTTTTTTTTTT         AAA               
-L:::::::::L                           A:::A                   F::::::::::::::::::::FL:::::::::L                OO:::::::::OO   T:::::::::::::::::::::T        A:::A              
-L:::::::::L                          A:::::A                  F::::::::::::::::::::FL:::::::::L              OO:::::::::::::OO T:::::::::::::::::::::T       A:::::A             
-LL:::::::LL                         A:::::::A                 FF::::::FFFFFFFFF::::FLL:::::::LL             O:::::::OOO:::::::OT:::::TT:::::::TT:::::T      A:::::::A            
-  L:::::L                          A:::::::::A                  F:::::F       FFFFFF  L:::::L               O::::::O   O::::::OTTTTTT  T:::::T  TTTTTT     A:::::::::A           
-  L:::::L                         A:::::A:::::A                 F:::::F               L:::::L               O:::::O     O:::::O        T:::::T            A:::::A:::::A          
-  L:::::L                        A:::::A A:::::A                F::::::FFFFFFFFFF     L:::::L               O:::::O     O:::::O        T:::::T           A:::::A A:::::A         
-  L:::::L                       A:::::A   A:::::A               F:::::::::::::::F     L:::::L               O:::::O     O:::::O        T:::::T          A:::::A   A:::::A        
-  L:::::L                      A:::::A     A:::::A              F:::::::::::::::F     L:::::L               O:::::O     O:::::O        T:::::T         A:::::A     A:::::A       
-  L:::::L                     A:::::AAAAAAAAA:::::A             F::::::FFFFFFFFFF     L:::::L               O:::::O     O:::::O        T:::::T        A:::::AAAAAAAAA:::::A      
-  L:::::L                    A:::::::::::::::::::::A            F:::::F               L:::::L               O:::::O     O:::::O        T:::::T       A:::::::::::::::::::::A     
-  L:::::L         LLLLLL    A:::::AAAAAAAAAAAAA:::::A           F:::::F               L:::::L         LLLLLLO::::::O   O::::::O        T:::::T      A:::::AAAAAAAAAAAAA:::::A    
-LL:::::::LLLLLLLLL:::::L   A:::::A             A:::::A        FF:::::::FF           LL:::::::LLLLLLLLL:::::LO:::::::OOO:::::::O      TT:::::::TT   A:::::A             A:::::A   
-L::::::::::::::::::::::L  A:::::A               A:::::A       F::::::::FF           L::::::::::::::::::::::L OO:::::::::::::OO       T:::::::::T  A:::::A               A:::::A  
-L::::::::::::::::::::::L A:::::A                 A:::::A      F::::::::FF           L::::::::::::::::::::::L   OO:::::::::OO         T:::::::::T A:::::A                 A:::::A 
-LLLLLLLLLLLLLLLLLLLLLLLLAAAAAAA                   AAAAAAA     FFFFFFFFFFF           LLLLLLLLLLLLLLLLLLLLLLLL     OOOOOOOOO           TTTTTTTTTTTAAAAAAA                   AAAAAAA
-                                                                                                                                                                                 
-                    .----------------.  .----------------.  .-----------------. .----------------.  .----------------.  .----------------.              
+
+                .----------------.  .----------------.  .-----------------. .----------------.  .----------------.  .----------------.              
                | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |             
                | |  ____  ____  | || | _____  _____ | || | ____  _____  | || |  ________    | || |     _____    | || |  _______     | |             
                | | |_   ||   _| | || ||_   _||_   _|| || ||_   \|_   _| | || | |_   ___ `.  | || |    |_   _|   | || | |_   __ \    | |             
@@ -67,19 +23,19 @@ LLLLLLLLLLLLLLLLLLLLLLLLAAAAAAA                   AAAAAAA     FFFFFFFFFFF       
 | |              | || |              | |        | |              | || |              | || |              | || |              | || |              | |
 | '--------------' || '--------------' |        | '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
  '----------------'  '----------------'          '----------------'  '----------------'  '----------------'  '----------------'  '----------------' 
-                                     # #  ( )
-                                  ___#_#___|__
-                              _  |____________|  _
-                       _=====| | |            | | |==== _
-                 =====| |.---------------------------. | |====
-   <--------------------'   .  .  .  .  .  .  .  .   '--------------/
-     \                                                             /
-      \_______________________________________________WWS_________/
-  wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-   wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  
+ 
+                                             # #  ( )
+                                         ___#_#___|__
+                                      _  |____________|  _                                         J A V I E R    Á L V A R E Z 
+                              _=====| | |            | | |==== _
+                         =====| |.---------------------------. | |====                             J U L I O    G Ó M E Z 
+          <--------------------'   .  .  .  .  .  .  .  .   '--------------/ 
+           \                                                             /                         J O R G E    G I M É N E Z
+            \___________________________________________________________/  
+        wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww                      N I C O L Á S    M U Ñ I Z
+       wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+           wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww  
 """
     print(titulo)
 
-# Llamar a la función para imprimir el título
 imprimir_titulo()

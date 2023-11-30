@@ -1,21 +1,57 @@
-titulo = [
-    "██░░░░░██ ░░██░░░░░██",
-    "██ ░░░░██ ░░██░░░░░██",
-    "█████████ ░░██░░░░░██",
-    "██ ░░░░██ ░░██░░░░░██",
-    "██ ░░░░██ ░░█████████"
-]
+import time
 
-for linea in titulo:
-    print(linea)
+# Turno del jugador
+print()
+print("             ~~~~~~~~~~~~~~~~")
+print("             |              |")
+print("             |   TU TURNO   |")
+print("             |              |")
+print("             ~~~~~~~~~~~~~~~~")
+print()
 
-titulo_retro = [
-    "H   H  U   U  N   N  DDDD   III  RRRR        L       A         FFFFF   L      OOO  TTTTT     A",
-    "H   H  U   U  NN  N  D   D   I   R   R       L      A A        F       L     O   O   T      A A",
-    "HHHHH  U   U  N N N  D   D   I   RRRR        L     A   A       FFFF    L     O   O   T     A   A",
-    "H   H  U   U  N  NN  D   D   I   R R         L     AAAAA       F       L     O   O   T     AAAAA",
-    "H   H   UUU   N   N  DDDD   III  R  RR       LLLL A     A      F       LLLL   OOO    T    A     A"
-]
 
-for linea in titulo_retro:
-    print(linea)
+
+# Turno de la máquina (simulado como disparo aleatorio)
+print()
+print("             ~~~~~~~~~~~~~~~~")
+print("             |     TURNO    |")
+print("             |     DE LA    |")
+print("             |    MÁQUINA   |")
+print("             ~~~~~~~~~~~~~~~~")
+print()
+
+
+
+
+
+def disparo_coordenada(self, x, y):
+    if self.tablero_oculto[x, y] == 1:
+        print(f'Has escogido disparar en ({x}, {y})')
+        time.sleep(1)
+        print(f'Habrás acertado', end="", flush=True)
+        time.sleep(1)
+        print(".", end="", flush=True)
+        time.sleep(1)
+        print(".", end="", flush=True)
+        time.sleep(1)
+        print(".", end="", flush=True)
+        time.sleep(1)
+        print("?", flush=True)
+        time.sleep(2)
+        print("\n\t¡¡Bien hecho, tocado!!\n\n")
+        time.sleep(1)
+        print("¡Sigue lanzando!\n")
+    else:
+        print(f'Has escogido disparar en ({x}, {y})')
+        time.sleep(1)
+        print(f'Habrás acertado', end="", flush=True)
+        time.sleep(1)
+        print(".", end="", flush=True)
+        time.sleep(1)
+        print(".", end="", flush=True)
+        time.sleep(1)
+        print(".", end="", flush=True)
+        time.sleep(1)
+        print("?", flush=True)
+        time.sleep(2)
+        print("\n\tNooo.. Agua...\n\tHay que afinar esa puntería...\n\n")
