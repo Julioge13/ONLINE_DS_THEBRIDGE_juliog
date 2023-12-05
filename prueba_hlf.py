@@ -39,3 +39,15 @@ def imprimir_titulo():
     print(titulo)
 
 imprimir_titulo()
+
+
+import pygame
+
+def reproducir_sonido():
+    pygame.init()
+    ruta_sonido = 'C:/Users/julio/Downloads/chiquito_de_la_calzada_al_ataque.mp3'
+    pygame.mixer.music.load(ruta_sonido)
+    pygame.mixer.music.play()
+
+# Llama a esta función en el momento adecuado de tu juego para reproducir el sonido
+reproducir_sonido()
