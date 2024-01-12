@@ -23,9 +23,6 @@ En esta carpeta podemos encontrar dos subcarpetas más, dónde se encuentran los
 * Banco de España
 * Data Comex
 
-### Memoria
-Memoria del EDA
-
 ### Notebooks
 Notebooks con los que he ido trabajando y avanzando en el EDA.
 
