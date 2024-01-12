@@ -14,6 +14,7 @@ Dentro de EDA_entrega, carpeta que contiene toda la información y documentació
 * memoria
 * notebooks
 * utils
+* presentacion
 
 ### Código
 En esta carpeta se encuentra el archivo principal del EDA, que justifica la presentación.
@@ -28,3 +29,6 @@ Notebooks con los que he ido trabajando y avanzando en el EDA.
 
 ### Utils
 Archivo excel con el que me he ayudado para visualizar información.
+
+### Presentación
+Archivo PPT con la presentación del EDA
